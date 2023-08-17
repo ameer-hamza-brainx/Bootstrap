@@ -1,0 +1,32 @@
+.upperNav{
+    background-color: #0d4f9a;
+    /* height: 46px; */
+    color: rgba(255, 255, 255, 0.836);
+}       
+*{
+    /* border: 1px solid red; */
+}
+.text{
+    font-size: 1.2rem;
+    font-family: var(--font-stack-body,"Lato","HelveticaNeue","Helvetica Neue",sans-serif);
+}
+.dropdown a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.836);
+}
+.dropdown-menu a{
+    background-color: #0b3b60;
+    padding: 0px;
+    margin: 0px;
+}
+.dropdown-menu{
+    padding: 0px;
+    font-size: 0.9rem;
+}
+.dropdown-menu a{
+    padding: 5px;
+}
+.dropdown-menu a:hover{
+    background-color: #479af3;
+    
+}
