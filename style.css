@@ -2,6 +2,9 @@
     background-color: #0d4f9a;
     /* height: 46px; */
     color: rgba(255, 255, 255, 0.836);
+}
+body{
+    font-family: var(--font-stack-body,"Lato","HelveticaNeue","Helvetica Neue",sans-serif);
 }       
 *{
     /* border: 1px solid red; */
@@ -29,4 +32,29 @@
 .dropdown-menu a:hover{
     background-color: #479af3;
     
+}
+.lowerNaveButton{
+    background-color: #0d4f9a;
+
+}
+.lowerNavText a{
+    color: #0a5188;
+    font-weight: 600;
+}
+.searchBar{
+    width: 350px;
+    padding-right: 35px;
+}
+.searchImg{
+    position: relative;
+    height: 30px;
+    right: 40px;
+    top: 4px;
+}
+.searchImg:hover{
+    cursor: pointer;
+}
+.boarder{
+    height: 5px;
+    background-color: #0d4f9a;
 }
