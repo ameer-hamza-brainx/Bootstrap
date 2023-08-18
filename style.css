@@ -8,6 +8,7 @@ body{
 }       
 *{
     /* border: 1px solid red; */
+    /* padding: 0px; */
 }
 .text{
     font-size: 1.2rem;
@@ -17,6 +18,15 @@ body{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.836);
 }
+
+
+.dropdown-menu{
+    display: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
 .dropdown-menu a{
     background-color: #0b3b60;
     padding: 0px;
@@ -45,7 +55,7 @@ body{
     font-weight: 600;
 }
 .searchBar{
-    width: 350px;
+    width: 20vw;
     padding-right: 35px;
 }
 .searchImg{
@@ -56,6 +66,12 @@ body{
 }
 .searchImg:hover{
     cursor: pointer;
+}
+.row{
+    padding-left: 0px;
+    padding-right: 0px;
+    --bs-gutter-x: 0rem;
+    /* background-color: red; */
 }
 .boarder{
     height: 5px;
@@ -90,11 +106,77 @@ body{
     color: #77b0ee;
 }
 .button{
-    width: 400px;
+    width: 24vw;
     height: 60px;
     border: 2px solid #0d4f9a;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0.3rem;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    border: 2px solid #0d4f9a;
+}
+.item:nth-last-child(2)
+{
+    border: 4px solid #0d4f9a;
+    height: 260px;
+    position: relative;
+    margin-top: -30px;
+}
+.custom-width{
+    width: 50%;
+}
+.textOfItem{
+    background-color: #0d4f9a;
+    width: 100%;
+    position: relative;
+    height: 30px;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textOfItem p{
+    font-weight: bold;
+    align-self: center;
+    font-size: 1.2rem;
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 990px) {
+  .custom-width{
+    width: 100%;
+}
+.carousel-item {
+    margin-left: 0vw;
+}
+.item{
+    height: 150px;
+}
+.item:nth-last-child(2)
+{
+    height: 150px;
+    margin-top: 0px;
+    border: 10px solid #32b97f;
+}
+.textOfItem{
+    display: none;
+}
+.textOfItem p{
+    display: none;
+}
+.upperText{
+    display: none;
+}
+
+}
+@media screen and (max-width: 768px) {
+    .button{
+        width: 40vw;
+    }
 }
