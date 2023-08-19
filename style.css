@@ -113,6 +113,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 0.3rem;
+    cursor: pointer;
 }
 .item{
     display: flex;
@@ -170,8 +171,20 @@ body{
 }
 
 
-
-
+.boxes{
+    background-color: #0d4f9a;
+    border: 1px solid white;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.boxes img{
+    position: relative;
+    bottom: 60px;
+}
 
 
 
@@ -227,46 +240,21 @@ body{
     height: auto;
 }
 
+.boxes img{
+    position: relative;
+    bottom: 10px;
+}
+
+
 }
 @media screen and (max-width: 768px) {
     .button{
         width: 40vw;
     }
+    .boxes{
+    border: none;
+}
 }
 
 
 
-
-@media (max-width: 767px) {
-    .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-    display: flex;
-}
-
-/* medium and up screens */
-@media (min-width: 768px) {
-    
-    .carousel-inner .carousel-item-end.active,
-    .carousel-inner .carousel-item-next {
-      transform: translateX(25%);
-    }
-    
-    .carousel-inner .carousel-item-start.active, 
-    .carousel-inner .carousel-item-prev {
-      transform: translateX(-25%);
-    }
-}
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
-  transform: translateX(0);
-}
