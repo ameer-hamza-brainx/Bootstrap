@@ -158,14 +158,16 @@ body{
     background-color: #2bb34d;
     color: white;
     /* width: 200px; */
-    /* padding: 20px; */
+    padding: 12px 18px;
     border-radius: 0.2rem;
     /* height: 30px; */
 }
 .butt:hover{
     cursor: pointer;
 }
-
+.customFont{
+    font-size: 1.7rem;
+}
 @media screen and (max-width: 990px) {
   .custom-width{
     width: 100%;
@@ -175,14 +177,19 @@ body{
 }
 .item{
     height: 180px;
+    gap: 45px;
 }
 .item:nth-last-child(2)
 {
-    height: 150px;
+    height: 180px;
     margin-top: 0px;
     border: 10px solid #32b97f;
     flex-direction: row;
     display: flex;
+}
+.item:nth-last-child(3) .butt
+{
+    margin-left: 35px;
 }
 .textOfItem{
     display: none;
@@ -196,8 +203,14 @@ body{
 .butt{
     font-size: 1.1rem;
     background-color: #2bb34d;
-    /* width: 150px; */
+    padding: 10px 10px;
     border-radius: 0.2rem;
+}
+.customFont{
+    font-size: 1.1rem;
+}
+.searchBar{
+    width: 40vw;
 }
 
 }
