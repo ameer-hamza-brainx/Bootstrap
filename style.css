@@ -172,22 +172,34 @@ body{
 
 
 .boxes{
-    background-color: #0d4f9a;
+    background-color: #0b3b60;
     border: 1px solid white;
     flex-direction: column;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 30px;
 }
 .boxes img{
     position: relative;
-    bottom: 60px;
+    bottom: 40px;
 }
-
-
-
+.mainText{
+    color: white;
+    font-size: 3.5rem;
+}
+.line{
+    background-color: #2bb34d;
+    height: 240px;
+    width: 8px;
+}
+.customPosition{
+    justify-content: end;
+    align-items: end;
+}
 
 
 
@@ -252,8 +264,19 @@ body{
         width: 40vw;
     }
     .boxes{
-    border: none;
+    border: 2px solid #0b3b60;
+    padding-top: 30px;
 }
+.customPosition{
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 90%;
+    height: 15px;
+    
+}
+
 }
 
 
