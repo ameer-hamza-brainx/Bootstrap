@@ -1,7 +1,9 @@
 .upperNav{
     background-color: #0d4f9a;
-    /* height: 46px; */
-    color: rgba(255, 255, 255, 0.836);
+    height: 46px;
+    color: white;
+    letter-spacing: 1.2px;
+
 }
 body{
     font-family: var(--font-stack-body,"Lato","HelveticaNeue","Helvetica Neue",sans-serif);
@@ -11,8 +13,16 @@ body{
     /* padding: 0px; */
 }
 .text{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: var(--font-stack-body,"Lato","HelveticaNeue","Helvetica Neue",sans-serif);
+    color: white;
+    font-weight: 400;
+}
+.littleBold{
+    font-weight: 500;
+}
+.navbar{
+ --bs-navbar-padding-y: 0rem;
 }
 .dropdown a{
     text-decoration: none;
@@ -43,23 +53,43 @@ body{
     background-color: #479af3;
     
 }
+.backImg{
+    background: url('https://cdn.shopify.com/s/files/1/0009/2900/5634/files/bg_a71a657f-2566-4a98-a55e-e76b5555861c.png?21731');
+    background-size: cover;
+    z-index: 10s;
+}
 .lowerNaveButton{
     background-color: #0d4f9a;
-
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--font-stack-body,"Lato","HelveticaNeue","Helvetica Neue",sans-serif);
+    padding: 13px 15px;
+    letter-spacing: -1px;
+}
+.dropdown a{
+    color: white;
 }
 .lowerNavText a{
     color: #0a5188;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: var(--font-stack-body,"Lato","HelveticaNeue","Helvetica Neue",sans-serif);
+    
 }
 .searchBar{
-    width: 20vw;
-    padding-right: 35px;
+    width: 19vw;
+    padding-right: 45px;
+    position: relative;
+    right: 10px;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding-top: 0.8rem ;
 }
 .searchImg{
     position: relative;
     height: 30px;
-    right: 40px;
-    top: 4px;
+    top: 5px;
+    right: 63px;
 }
 .searchImg:hover{
     cursor: pointer;
