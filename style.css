@@ -318,6 +318,7 @@ body{
     position: fixed;
     cursor: pointer;
     border-radius: 2rem;
+    box-shadow: 0 0 10px rgb(29, 15, 92);
 }
 
 
@@ -412,7 +413,7 @@ body{
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .customPosition{
         justify-content: start;
         align-items: start;
