@@ -398,7 +398,7 @@ body{
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     .customPosition{
         justify-content: start;
         align-items: start;
