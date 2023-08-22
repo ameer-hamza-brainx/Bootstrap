@@ -136,12 +136,12 @@ body{
 .carousel-item img:hover{
     transform: scale(1.3);
 }
-.star a {
-    font-size: 0.7rem;
+.reviews a {
+    font-size: 0.8rem;
     text-decoration: none;
     color: #106aca;
 }
-.star a:hover {
+.reviews a:hover {
     color: #77b0ee;
 }
 .button{
@@ -324,18 +324,25 @@ body{
   .custom-width{
     width: 100%;
 }
+.button{
+    padding: 40px;
+    text-align: center;
+}
 .carousel-item {
     margin-left: 0vw;
 }
+.perPackFont{
+    font-size: 0.6rem;
+}
 .item{
-    height: 180px;
+    height: 120px;
     gap: 45px;
 }
 .item:nth-last-child(2)
 {
-    height: 180px;
+    height: 140px;
     margin-top: 0px;
-    border: 10px solid #32b97f;
+    border: 7px solid #32b97f;
     flex-direction: row;
     display: flex;
 }
@@ -385,11 +392,26 @@ body{
     justify-content: start;
     align-items: start;
 }
+.supportDropdown{
+    position: absolute;
+    left: 0;
+}
+.customHeight{
+        height: 82px;
+        margin: 22px 10px;
+    }
+.textOnCrousel{
+    padding: 0px 10px;
+    text-align: center;
+}
 
 }
 @media screen and (max-width: 768px) {
     .button{
         width: 40vw;
+    }
+    .upperNav{
+        font-size: 12px;
     }
     .boxes{
     border: 2px solid #0b3b60;
