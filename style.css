@@ -211,7 +211,7 @@ body{
     background-color: #2bb34d;
     color: white;
     text-align: center;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border-radius: 0.3rem;
 }
 .butt:hover{
@@ -335,6 +335,9 @@ body{
   .custom-width{
     width: 100%;
 }
+.mainText{
+    font-size: 2rem;
+}
 .boxes:nth-last-child(1) img{
     position: relative;
     bottom: 50px;
@@ -382,7 +385,7 @@ body{
     display: none;
 }
 .butt{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     background-color: #2bb34d;
     padding: 10px 10px;
     border-radius: 0.2rem;
@@ -408,8 +411,9 @@ body{
     border-right: 2px solid #0d4f9a;
 }
 .customPosition{
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .supportDropdown{
     position: absolute;
@@ -427,12 +431,17 @@ body{
 }
 @media screen and (max-width: 768px) {
     .button{
-        width: 40vw;
+        width: 45vw;
+        font-size: 1rem;
+        padding: 25px;
     }
     .boxes img{
     position: relative;
     bottom: 10px;
 }
+.customHeight{
+        margin: 0px 10px;
+    }
     .upperNav{
         font-size: 12px;
     }
@@ -456,7 +465,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+.textOnCrousel{
+    font-size: 2rem;
+}
+.imgHeight{
+    height: 160px;
+}
 }
 
 @media screen and (max-width: 550px) {
