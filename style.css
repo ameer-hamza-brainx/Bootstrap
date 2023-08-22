@@ -318,11 +318,26 @@ body{
     border-radius: 2rem;
     box-shadow: 0 0 10px rgb(29, 15, 92);
 }
-
+.watchBtn{
+    border: 3px solid #0a5188;
+    text-align: center;
+    color: #0a5188;
+    padding: 7px 0px;
+    border-radius: 0.35rem;
+    font-family: var(--font-stack-body,"Lato","HelveticaNeue","Helvetica Neue",sans-serif);
+    font-size: 0.9rem;
+    letter-spacing: -0.5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 990px) {
   .custom-width{
     width: 100%;
+}
+.boxes:nth-last-child(1) img{
+    position: relative;
+    bottom: 50px;
 }
 .button{
     padding: 40px;
@@ -332,11 +347,18 @@ body{
     margin-left: 0vw;
 }
 .perPackFont{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+    position: relative;
+    left: 2px;
+    top: 3px;
+}
+.SaveCustomFont{
+    font-size: 0.8rem !important;
+    font-weight: normal !important;
 }
 .item{
     height: 120px;
-    gap: 45px;
+    /* gap: 1vw; */
 }
 .item:nth-last-child(2)
 {
@@ -376,10 +398,7 @@ body{
     height: auto;
 }
 
-.boxes img{
-    position: relative;
-    bottom: 10px;
-}
+
 .item:nth-last-child(1)
 {
     border-left: 2px solid #0d4f9a;
@@ -410,6 +429,10 @@ body{
     .button{
         width: 40vw;
     }
+    .boxes img{
+    position: relative;
+    bottom: 10px;
+}
     .upperNav{
         font-size: 12px;
     }
@@ -417,7 +440,10 @@ body{
     border: 2px solid #0b3b60;
     padding-top: 30px;
 }
-
+.boxes:nth-last-child(1) img{
+    position: relative;
+    bottom: 25px;
+}
 .line{
     width: 90%;
     height: 15px;
